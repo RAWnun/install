@@ -1,11 +1,3 @@
-cinnamon
-cinnamon-translations
-gnome-terminal
-gnome-system-monitor
-gnome-screenshot
-iso-flag-png
-mintlocale
-nemo-fileroller
 #!/usr/bin/env bash
 #======================================================
 #   / \   _ __ ___| |__   |_ _|_ __  ___| |_ __ _| | |
@@ -32,20 +24,14 @@ PKGS=(
 
 
     # --- Setup Desktop
-        'cinnamon'         # Awesome Desktop
-        'cinnamon-translations'                 # Power Manager 
-        'gnome-terminal'                  # Menu System
-        'gnome-system-monitor'                 # Translucent Windows
-        'gnome-screenshot'                 # System Clipboard
-        'iso-flag-png'          # Elevate Applications
-        'mintlocale'
+        'xfce4'                 # XFCE Desktop
+        'xfce4-goodies'         # All the extras
         'nemo-fileroller'
-        'metacity'
-        'gnome-shell'
         'dmenu'
         'imagemagick'
         'hardcode-fixer-git'
         'dconf-editor'
+   
    
     # --- Login Display Manager
         'lightdm'                   # Base Login Manager
